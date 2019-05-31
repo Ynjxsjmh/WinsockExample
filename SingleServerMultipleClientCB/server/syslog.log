@@ -1,0 +1,46 @@
+DATE: 05/31/19 - 03:20:23                    syslog.log
+
+system started ...
+
+initialize the winsock library ... successful
+
+Retrieve the local host name and address:
+		==> Name: 2011-20131227SJ
+		==> Address: 192.168.43.111
+
+Summary of socket settings:
+   Socket Id:     420
+   port #:        1200
+   debug:         false
+   reuse addr:    false
+   keep alive:    true
+   send buf size: 8192
+   recv bug size: 8192
+   blocking:      true
+   linger on:     false
+   linger seconds: 0
+
+
+server finishes binding process... 
+server is waiting for client calls ... 
+
+-----------------------------------------------------------------
+server (name:2011-20131227SJ) status report:
+   the following clients have successfully connected with server: 
+   the following clients have shutdown the connection: 
+-----------------------------------------------------------------
+
+
+==> A client from [2011-20131227SJ-A] is connected!
+
+
+==> A client from [2011-20131227SJ-B] is connected!
+
+[RECV fr 2011-20131227SJ-A]: fff
+[SEND to 2011-20131227SJ-A]: fw
+[RECV fr 2011-20131227SJ-B]: wwww
+[SEND to 2011-20131227SJ-B]: 
+
+DATE: 05/31/19 - 03:21:56                    syslog.log
+
+Execution time: 1 minutes 33 seconds
