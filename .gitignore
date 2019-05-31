@@ -4,3 +4,5 @@ obj
 *.exe
 *.cbp
 *.depend
+*.layout
+*.out
