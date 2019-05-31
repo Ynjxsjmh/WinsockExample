@@ -1,0 +1,35 @@
+DATE: 05/31/19 - 03:21:23                    syslog.log
+
+system started ...
+
+initialize the winsock library ... successful
+
+Retrieve the localHost [CLIENT] name and address:
+		==> Name: 2011-20131227SJ
+		==> Address: 192.168.43.111
+
+Retrieve the remoteHost [SERVER] name and address:
+		==> the given address is 192.168.43.111
+		==> Name: 2011-20131227SJ
+		==> Address: 192.168.43.111
+client configuation: 
+
+Summary of socket settings:
+   Socket Id:     416
+   port #:        1200
+   debug:         false
+   reuse addr:    false
+   keep alive:    true
+   send buf size: 8192
+   recv bug size: 8192
+   blocking:      true
+   linger on:     false
+   linger seconds: 0
+
+connecting to the server [2011-20131227SJ] ... 
+[SEND] wwww
+
+DATE: 05/31/19 - 03:21:55                    syslog.log
+
+Execution time: 0 minutes 32 seconds
+ecution time: 0 minutes 39 seconds
