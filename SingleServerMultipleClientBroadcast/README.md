@@ -17,3 +17,4 @@ Same way when the Client B sends a message to the server it should be forwarded 
 # Feature
 Note that the client can only receives message after sending message, this might can be solved by using `asynchronous mode`.
 
+Type `quit` in client to end chatting.
