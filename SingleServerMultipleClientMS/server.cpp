@@ -6,10 +6,7 @@
 #include <windows.h>
 #include <winsock2.h>
 #include <ws2tcpip.h>
-#include <mysql.h>
-#include <stdlib.h>
 #include <stdio.h>
-#include <list>
 #include <iostream>
 
 using namespace std;
@@ -89,17 +86,12 @@ DWORD WINAPI receive_cmds( LPVOID lpParam ) {
 int __cdecl main(void) {
     WSADATA wsaData;
     int iResult;
-    MESSAGE message;
 
     SOCKET ListenSocket = INVALID_SOCKET;
     SOCKET ClientSocket = INVALID_SOCKET;
 
     struct addrinfo *result = NULL;
     struct addrinfo hints;
-
-    int iSendResult;
-    char recvbuf[DEFAULT_BUFLEN];
-    int recvbuflen = DEFAULT_BUFLEN;
 
 	// for our thread
 	DWORD thread;
