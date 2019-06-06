@@ -146,7 +146,7 @@ int __cdecl main(int argc, char **argv)
         iResult = recv(ConnectSocket, recvbuf, recvbuflen, 0);
 
         if (iResult > 0) {
-            memset(message.content, 0, sizeof(message.content));
+            memset(&message, 0, sizeof(message));
             memcpy(&message, recvbuf, sizeof(message));
             SetConsoleColour(&Attributes, FOREGROUND_INTENSITY | FOREGROUND_RED);
             printf("Received Message from SOCKET %s: %s\n", message.username, message.content);
