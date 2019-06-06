@@ -69,7 +69,8 @@ DWORD WINAPI receive_cmds( LPVOID lpParam ) {
 				char tempbuf[DEFAULT_BUFLEN];
 
 				memset(message.username, 0, sizeof(message.username));
-	            strcpy(message.username, to_string(*it).c_str());
+	            strcpy(message.username, to_string(clientSocket).c_str());
+	            cout << "Wrap sender username:" << message.username << endl;
 
 	            memset(tempbuf, 0, sizeof(tempbuf));
 	            memcpy(tempbuf, &message, sizeof(message));
