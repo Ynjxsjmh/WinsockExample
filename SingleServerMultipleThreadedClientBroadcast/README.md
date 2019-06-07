@@ -2,11 +2,12 @@
 **Table of Contents**
 
 - [About](#about)
+- [Brief Introduction](#brief-introduction)
 
 <!-- markdown-toc end -->
 
 # About
-This program implements what is not realized in `SingleServerMultipleEncClientBroadcast` by using thread.
+This program implements what is not realized in `SingleServerMultipleClientBroadcast` by using thread.
 
 # Brief Introduction
 This a simple chat client, where clients join the server and send messages to it, which then in turn sends those messages to all the other connected clients.
