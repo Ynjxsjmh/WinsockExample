@@ -3,6 +3,7 @@
 
 - [About](#about)
 - [Feature](#feature)
+- [Note](#note)
 
 <!-- markdown-toc end -->
 
@@ -22,3 +23,6 @@ Note that the client can only receives message after sending message, this might
 3. And then there is asynchronous socket I/O using Overlapped I/O, I/O Completion Ports, or Registered I/O extensions
 
 See [Winsock - How to receive and send data simultaneously?](https://stackoverflow.com/questions/38728713/winsock-how-to-receive-and-send-data-simultaneously) for more detail.
+
+# Note
+I can run successfully after compiling it using Dev-C++ but fail with CodeBlocks.
