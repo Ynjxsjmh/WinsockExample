@@ -26,3 +26,5 @@ See [Winsock - How to receive and send data simultaneously?](https://stackoverfl
 
 # Note
 I can run successfully after compiling it using Dev-C++ but fail with CodeBlocks.
+
+After debugging, I find it has something to do with `char tempbuf[DEFAULT_BUFLEN];`. Using `memcpy()` to convert struct type into char array needs the char array is big enough. Since I use `x86_64-w64-mingw32-g++.exe` to compile the server file, the size of tempbuf may not big enough to hold message struct. So I need to double the length of tempbuf.
